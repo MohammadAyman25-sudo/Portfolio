@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Code", serif;
+    background-image: url('../assets/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Start Navbar Styling */
+.navbar .container .navbar-brand{
+    color: #FFF;
+}
+.navbar .container .collapse .navbar-nav .nav-item span {
+    color: #C778DD;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    color: #FFF;
+}
+.navbar .container .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28217, 217, 217%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar .container .navbar-toggler {
+    border: none;
+    outline: none;
+}
+/* End Navbar Styling */
+/* Start Main Styling */
+.container .row .col h1 {
+    color: #FFF;
+}
+.container .row .col h1 span {
+    color: #C778DD;
+}
+.container .row .col p {
+    color: #ABB2BF;
+}
+.container .row .col .btn {
+    color: #FFF;
+    border-color: #C778DD;
+    border-radius: 0;
+}
+.container .row .col .profile-img .my-img{
+    object-fit: cover;
+}
+/* End Main Styling */
+/* Start Projects Styling */
+#projects h3, #skills h3, #about-me h3, #contacts h3 {
+    color: #FFF;
+    border-bottom: 1px solid #C778DD;
+    padding: 1% 0;
+}
+#projects h3 span, #skills h3 span, #about-me h3 span, #contacts h3 span{
+    color: #C778DD
+}
+#projects .row .col .card{
+    color: #ABB2BF;
+    background-color: #282C33;
+    border-radius: 0;
+    border-color: #ABB2BF;
+    padding: 5%;
+}
+#projects .row .col .card .tools {
+    padding: 2% 3%;
+    border-bottom: 1px solid #ABB2BF;
+    height: 35px;
+    overflow: hidden;
+}
+
+#projects .row .col .card .card-body .card-text {
+    height: 70px;
+    overflow: hidden;
+}
+
+#projects .row .col .card .btn {
+    width: fit-content;
+}
+/* End Projects Styling */
+/* Start Skills Styling */
+
+#skills .row .col .card {
+    width: 100%;
+    height: 100%;
+}
+#skills .row .col .card .title {
+    color: #FFF;
+    padding: 2% 3%;
+    border-bottom: 1px solid #ABB2BF;
+}
+#skills .row .col .card{
+    color: #ABB2BF;
+    background-color: #282C33;
+    border-radius: 0;
+    border-color: #ABB2BF;
+    padding: 5%;
+}
+/* End Skills Styling */
+/* Start About-Me Styling */
+#about-me .col p{
+    color: #ABB2BF;
+    background-color: #282C33;
+}
+/* End About-Me Styling */
+/* Start Contacts Styling */
+#contacts .row .col .card {
+    color: #ABB2BF;
+    background-color: #282C33;
+    border: 1px solid #ABB2BF;
+    border-radius: 0;
+}
+
+#contacts .row .col .card .card-body h5 {
+    border-bottom: 1px solid #ABB2BF;
+    padding: 5% 0;
+}
+
+#contacts .row .col p {
+    background-color: #282C33;
+    padding: 1%;
+}
+
+#contacts .row .col .card a {
+    text-decoration: none;
+    color: #ABB2BF;
+}
+/* End Contacts Styling */
+/* Start Footer Styling */
+.container-fluid {
+    border-top: 1px solid #ABB2BF;
+    background-color: #282C33;
+}
+#footer .row .col .career {
+    color: #FFF;
+}
+#footer .row .col h3 {
+    color: #ABB2BF;
+}
+#footer p.brand {
+    color: #FFF !important;
+}
+#footer .email p{
+    color: #ABB2BF;
+}
+#footer .career {
+    color: #FFF;
+}
+#footer .copyright {
+    color: #ABB2BF;
+}
+/* End Footer Styling */
+.btn:hover {
+    background-color: #C778DD;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.read-more {
+    display: none;
+}
